@@ -14,9 +14,10 @@ export default function Footer(): JSX.Element {
       <InfoIcon onClick={showSidebar}/>
       {sidebar && <Sidebar active={setSidebar} />}
 
-      <a href="https://giorkakuda.github.io/portfolio/#" target="_blank">
-        <strong>Game Implemented on Web3 by Giordanni</strong>
-      </a>
+      <p>
+        <a href="https://giorkakuda.github.io/portfolio/#" target="_blank">
+          <strong>Game Implemented on Web3 by Giordanni</strong></a>
+      </p>
     </footer>
     
   );
