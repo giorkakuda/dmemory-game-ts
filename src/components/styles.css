@@ -108,9 +108,17 @@ body {
         transition-duration: 0.5s;
     }
 }
+.infoIcon {
+  font-size: 29px; 
+  margin-left: 20px; 
+  width: 29px;
+  height: 29px;
+  margin-bottom: 0px;
+}
+
 .icon {
   > svg {
-    margin-left: 20px;
+    
     color: white;
     width: 29px;
     height: 29px;
@@ -165,7 +173,7 @@ body {
     position: fixed;
     height: 100%;
     top: 0;
-    left: 0;
+    
     width: 230px;
     font-size: 20px;
   }

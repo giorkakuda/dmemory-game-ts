@@ -11,7 +11,7 @@ export default function Footer(): JSX.Element {
 
   return (
     <footer className='icon'>
-      <InfoIcon onClick={showSidebar}/>
+      <InfoIcon className='infoIcon' onClick={showSidebar}/>
       {sidebar && <Sidebar active={setSidebar} />}
 
       <p>
