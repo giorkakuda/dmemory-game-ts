@@ -94,7 +94,7 @@ body {
 .claimTokens {
     background-color: green;
     font-size: 25px;
-    padding: 7px;
+    padding: 6px;
     padding-left: 25px;
     padding-right: 25px;
     border-radius: 6px;
@@ -109,16 +109,20 @@ body {
     }
 }
 .icon {
-    height: 30px;
-    display: flex;
-    background-color: black;
-
+    
     >svg {
+        display: flex;
+        align-items: left;
+        justify-content: left;
+        text-align: left;
+        flex-grow: 1;
+        
+        margin-left: 20px;
         position: fixed;
         color: white;
         width: 32px;
         height: 32px;
-        margin-left: 13px;
+      
         cursor: pointer;
 
         &:hover{

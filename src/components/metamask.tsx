@@ -20,7 +20,7 @@ export default function Metamask() {
         console.log('Error connecting...');
       }
     } else {
-      alert('Please install Metamask!');
+      alert("Please install MetaMask! Click on the 'Info' button below for more information.");
     }
   }
   async function connectWallet() {
