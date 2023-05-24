@@ -109,60 +109,56 @@ body {
     }
 }
 .icon {
-    
-    >svg {
-        display: flex;
-        align-items: left;
-        justify-content: left;
-        text-align: left;
-        flex-grow: 1;
-        
-        margin-left: 20px;
-        position: fixed;
-        color: white;
-        width: 32px;
-        height: 32px;
-      
-        cursor: pointer;
+  > svg {
+    margin-left: 20px;
+    color: white;
+    width: 29px;
+    height: 29px;
+    cursor: pointer;
 
-        &:hover{
-        color:  rgb(0, 191, 255);;
-        transition-duration: 0.5s;
-        }
+    &:hover {
+      color: rgb(0, 191, 255);
+      transition-duration: 0.5s;
     }
-    > a {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        color: white;
-        flex-grow: 1;
-        text-decoration: none;
-        &:hover{
-            color:  rgb(0, 191, 255);
-            transition-duration: 0.5s;
-            }
-      }
   }
-  .icon > p {
-    font-size: 0.85em;
+
+  > a {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: white;
     flex-grow: 1;
-    margin: 0;
-  }
-  
-  .icon > p > a {
     text-decoration: none;
-    color: white;
+
     &:hover {
-        color: rgb(0, 191, 255);
-        transition-duration: 0.5s;
-      }
+      color: rgb(0, 191, 255);
+      transition-duration: 0.5s;
+    }
   }
+}
+
+.icon > p {
+  padding-left: 0px;
+  font-size: 0.85em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  flex-grow: 1;
+  margin: 0;
+}
+
+.icon > p > a {
+  text-decoration: none;
+  color: white;
+
+  &:hover {
+    color: rgb(0, 191, 255);
+    transition-duration: 0.5s;
+  }
+}
 
   .sidebar {
     background-color: rgb(26, 26, 26);
